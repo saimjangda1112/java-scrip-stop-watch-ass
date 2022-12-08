@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css
+    ">
+    <link rel="stylesheet" href="style.css">
+    <title>STOP WATCH</title>
+</head>
+<body>
+    <h1 class="text-center">Stop Watch</h1>
+<div class="">
+    <div class="container p-5 my-5">
+<div class="row"> 
+    <div class="col-md-12">
+        <div class="text-center p-3">
+            <div class="box ">
+            <h1>MiliSecond</h1>
+            <h1 id="dispalyMilisec">00</h1>
+        </div>
+        </div>
+    </div>
+</div>
+<div class="row"> 
+    <div class="col-md-12">
+        <div class="text-center p-3">
+            <h1>sec</h1>
+            <h1 id="displaySec">00</h1>
+        </div>
+    </div>
+</div>
+<div class="row"> 
+    <div class="col-md-12">
+        <div class="text-center p-3">
+            <h1>Minute</h1>
+            <h1 id="displayMin">00</h1>
+        </div>
+    </div>
+</div>
+
+<div  class="text-center">
+    <input type="number" placeholder="Minute" name="" id="min"><input type="number" placeholder="hours" name="" id="hour">
+</div >
+
+    
+
+<div class="row"> 
+    <div class="col-md-12">
+        <div class="text-center p-3">
+           <button onclick="startTimer()">start</button>
+            <button onclick=" pauseTimer()">Pause</button>
+            <button onclick="resetTimer()">Reset</button>
+        </div>
+    </div>
+</div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="app.js"></script>
+</div>
+</body>
+</html>
